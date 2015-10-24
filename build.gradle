@@ -45,6 +45,8 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-web:$spring_boot_version"
 
     testCompile 'junit:junit:4.12'
+    // 追加
+    compile("org.thymeleaf:thymeleaf-spring4")
 }
 
 springBoot {
